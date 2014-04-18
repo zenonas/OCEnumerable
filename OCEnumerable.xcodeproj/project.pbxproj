@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1079AD261901DB4A00A13FBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1079AD251901DB4A00A13FBE /* Foundation.framework */; };
+		1079AD2B1901DB4A00A13FBE /* OCEnumerable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1079AD2A1901DB4A00A13FBE /* OCEnumerable.h */; };
+		1079AD2D1901DB4A00A13FBE /* OCEnumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1079AD2C1901DB4A00A13FBE /* OCEnumerable.m */; };
+		1079AD341901DB4A00A13FBE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1079AD331901DB4A00A13FBE /* XCTest.framework */; };
+		1079AD351901DB4A00A13FBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1079AD251901DB4A00A13FBE /* Foundation.framework */; };
+		1079AD371901DB4A00A13FBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1079AD361901DB4A00A13FBE /* UIKit.framework */; };
+		1079AD3A1901DB4A00A13FBE /* libOCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1079AD221901DB4A00A13FBE /* libOCEnumerable.a */; };
+		1079AD401901DB4A00A13FBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1079AD3E1901DB4A00A13FBE /* InfoPlist.strings */; };
+		1079AD421901DB4A00A13FBE /* OCEnumerableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1079AD411901DB4A00A13FBE /* OCEnumerableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1079AD381901DB4A00A13FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1079AD1A1901DB4A00A13FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1079AD211901DB4A00A13FBE;
+			remoteInfo = OCEnumerable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1079AD201901DB4A00A13FBE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1079AD2B1901DB4A00A13FBE /* OCEnumerable.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1079AD221901DB4A00A13FBE /* libOCEnumerable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOCEnumerable.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1079AD251901DB4A00A13FBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1079AD291901DB4A00A13FBE /* OCEnumerable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCEnumerable-Prefix.pch"; sourceTree = "<group>"; };
+		1079AD2A1901DB4A00A13FBE /* OCEnumerable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCEnumerable.h; sourceTree = "<group>"; };
+		1079AD2C1901DB4A00A13FBE /* OCEnumerable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCEnumerable.m; sourceTree = "<group>"; };
+		1079AD321901DB4A00A13FBE /* OCEnumerableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCEnumerableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1079AD331901DB4A00A13FBE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1079AD361901DB4A00A13FBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1079AD3D1901DB4A00A13FBE /* OCEnumerableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCEnumerableTests-Info.plist"; sourceTree = "<group>"; };
+		1079AD3F1901DB4A00A13FBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1079AD411901DB4A00A13FBE /* OCEnumerableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCEnumerableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1079AD1F1901DB4A00A13FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1079AD261901DB4A00A13FBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1079AD2F1901DB4A00A13FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1079AD341901DB4A00A13FBE /* XCTest.framework in Frameworks */,
+				1079AD3A1901DB4A00A13FBE /* libOCEnumerable.a in Frameworks */,
+				1079AD371901DB4A00A13FBE /* UIKit.framework in Frameworks */,
+				1079AD351901DB4A00A13FBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1079AD191901DB4A00A13FBE = {
+			isa = PBXGroup;
+			children = (
+				1079AD271901DB4A00A13FBE /* OCEnumerable */,
+				1079AD3B1901DB4A00A13FBE /* OCEnumerableTests */,
+				1079AD241901DB4A00A13FBE /* Frameworks */,
+				1079AD231901DB4A00A13FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1079AD231901DB4A00A13FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1079AD221901DB4A00A13FBE /* libOCEnumerable.a */,
+				1079AD321901DB4A00A13FBE /* OCEnumerableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1079AD241901DB4A00A13FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1079AD251901DB4A00A13FBE /* Foundation.framework */,
+				1079AD331901DB4A00A13FBE /* XCTest.framework */,
+				1079AD361901DB4A00A13FBE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1079AD271901DB4A00A13FBE /* OCEnumerable */ = {
+			isa = PBXGroup;
+			children = (
+				1079AD2A1901DB4A00A13FBE /* OCEnumerable.h */,
+				1079AD2C1901DB4A00A13FBE /* OCEnumerable.m */,
+				1079AD281901DB4A00A13FBE /* Supporting Files */,
+			);
+			path = OCEnumerable;
+			sourceTree = "<group>";
+		};
+		1079AD281901DB4A00A13FBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1079AD291901DB4A00A13FBE /* OCEnumerable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1079AD3B1901DB4A00A13FBE /* OCEnumerableTests */ = {
+			isa = PBXGroup;
+			children = (
+				1079AD411901DB4A00A13FBE /* OCEnumerableTests.m */,
+				1079AD3C1901DB4A00A13FBE /* Supporting Files */,
+			);
+			path = OCEnumerableTests;
+			sourceTree = "<group>";
+		};
+		1079AD3C1901DB4A00A13FBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1079AD3D1901DB4A00A13FBE /* OCEnumerableTests-Info.plist */,
+				1079AD3E1901DB4A00A13FBE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1079AD211901DB4A00A13FBE /* OCEnumerable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1079AD451901DB4A00A13FBE /* Build configuration list for PBXNativeTarget "OCEnumerable" */;
+			buildPhases = (
+				1079AD1E1901DB4A00A13FBE /* Sources */,
+				1079AD1F1901DB4A00A13FBE /* Frameworks */,
+				1079AD201901DB4A00A13FBE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCEnumerable;
+			productName = OCEnumerable;
+			productReference = 1079AD221901DB4A00A13FBE /* libOCEnumerable.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1079AD311901DB4A00A13FBE /* OCEnumerableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1079AD481901DB4A00A13FBE /* Build configuration list for PBXNativeTarget "OCEnumerableTests" */;
+			buildPhases = (
+				1079AD2E1901DB4A00A13FBE /* Sources */,
+				1079AD2F1901DB4A00A13FBE /* Frameworks */,
+				1079AD301901DB4A00A13FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1079AD391901DB4A00A13FBE /* PBXTargetDependency */,
+			);
+			name = OCEnumerableTests;
+			productName = OCEnumerableTests;
+			productReference = 1079AD321901DB4A00A13FBE /* OCEnumerableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1079AD1A1901DB4A00A13FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Zen Kyprianou";
+			};
+			buildConfigurationList = 1079AD1D1901DB4A00A13FBE /* Build configuration list for PBXProject "OCEnumerable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1079AD191901DB4A00A13FBE;
+			productRefGroup = 1079AD231901DB4A00A13FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1079AD211901DB4A00A13FBE /* OCEnumerable */,
+				1079AD311901DB4A00A13FBE /* OCEnumerableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1079AD301901DB4A00A13FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1079AD401901DB4A00A13FBE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1079AD1E1901DB4A00A13FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1079AD2D1901DB4A00A13FBE /* OCEnumerable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1079AD2E1901DB4A00A13FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1079AD421901DB4A00A13FBE /* OCEnumerableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1079AD391901DB4A00A13FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1079AD211901DB4A00A13FBE /* OCEnumerable */;
+			targetProxy = 1079AD381901DB4A00A13FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1079AD3E1901DB4A00A13FBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1079AD3F1901DB4A00A13FBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1079AD431901DB4A00A13FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1079AD441901DB4A00A13FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1079AD461901DB4A00A13FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OCEnumerable.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCEnumerable/OCEnumerable-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1079AD471901DB4A00A13FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OCEnumerable.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCEnumerable/OCEnumerable-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1079AD491901DB4A00A13FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCEnumerable/OCEnumerable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCEnumerableTests/OCEnumerableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1079AD4A1901DB4A00A13FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCEnumerable/OCEnumerable-Prefix.pch";
+				INFOPLIST_FILE = "OCEnumerableTests/OCEnumerableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1079AD1D1901DB4A00A13FBE /* Build configuration list for PBXProject "OCEnumerable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1079AD431901DB4A00A13FBE /* Debug */,
+				1079AD441901DB4A00A13FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1079AD451901DB4A00A13FBE /* Build configuration list for PBXNativeTarget "OCEnumerable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1079AD461901DB4A00A13FBE /* Debug */,
+				1079AD471901DB4A00A13FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1079AD481901DB4A00A13FBE /* Build configuration list for PBXNativeTarget "OCEnumerableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1079AD491901DB4A00A13FBE /* Debug */,
+				1079AD4A1901DB4A00A13FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1079AD1A1901DB4A00A13FBE /* Project object */;
+}
