@@ -1,18 +1,18 @@
 //
-//  OCEnumerableTests.m
-//  OCEnumerableTests
+//  NSArray-OCEnumerableTests.m
+//  OCEnumerable
 //
-//  Created by Zinon Kyprianou on 18/04/2014.
+//  Created by Zinon Kyprianou on 19/04/2014.
 //  Copyright (c) 2014 Zen Kyprianou. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface OCEnumerableTests : XCTestCase
+@interface NSArray_OCEnumerableTests : XCTestCase
 
 @end
 
-@implementation OCEnumerableTests
+@implementation NSArray_OCEnumerableTests
 
 - (void)setUp
 {
