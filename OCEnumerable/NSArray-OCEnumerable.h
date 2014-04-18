@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray_OCEnumerable : NSObject
+@interface NSArray (OCEnumerable)
+
+-(void)each:(void (^)(id))block;
 
 @end

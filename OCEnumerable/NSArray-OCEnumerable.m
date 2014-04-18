@@ -8,6 +8,14 @@
 
 #import "NSArray-OCEnumerable.h"
 
-@implementation NSArray_OCEnumerable
+@implementation NSArray (OCEnumerable)
+
+-(void)each:(void (^)(id))block {
+    for (id object in self) {
+        NSLog(@"%@", object);
+        block(object);
+    }
+}
+
 
 @end
