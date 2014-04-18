@@ -10,6 +10,6 @@
 
 @interface NSArray (OCEnumerable)
 
--(void)each:()
+-(void)each:(void (^)(id))block;
 
 @end
