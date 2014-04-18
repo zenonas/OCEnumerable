@@ -8,6 +8,6 @@
 
 #import "NSArray-OCEnumerable.h"
 
-@implementation NSArray_OCEnumerable
+@implementation NSArray (OCEnumerable)
 
 @end

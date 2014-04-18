@@ -2,33 +2,34 @@
 //  NSArray-OCEnumerableTests.m
 //  OCEnumerable
 //
-//  Created by Zinon Kyprianou on 19/04/2014.
+//  Created by Zen Kyprianou on 19/04/2014.
 //  Copyright (c) 2014 Zen Kyprianou. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+#define EXP_SHORTHAND
+#import "Specta.h"
+#import "Expecta.h"
 
-@interface NSArray_OCEnumerableTests : XCTestCase
 
-@end
+SpecBegin(NSArray)
 
-@implementation NSArray_OCEnumerableTests
+describe(@"NSArray (OCEnumerable)", ^{
+    __block NSArray *array = @[@1,@2,@3,@4];
+    
+    describe(@"#each", ^{
+        it(@"iterates through every element in the array", ^{
+            __block NSInteger result = 0;
+            [array each:^(NSInteger number){
+                result += number;
+            }];
+            expect(result).to.equal(10);
+            
+        });
+        
+    });
+    
+    
+});
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-@end
+SpecEnd
