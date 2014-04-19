@@ -12,10 +12,19 @@
 
 -(void)each:(void (^)(id))block {
     for (id object in self) {
-        NSLog(@"%@", object);
         block(object);
     }
 }
 
+-(NSArray *)map:(id (^)(id))block {
+    NSMutableArray *mutableArray;
+    for (id object in self) {
+        NSLog(@"%@", object);
+        NSLog(@"%@", block(object));
+        [mutableArray addObject:block(object)];
+    }
+    NSArray *result = [[NSArray alloc] initWithArray:mutableArray];
+    return result;
+}
 
 @end

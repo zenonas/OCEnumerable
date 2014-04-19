@@ -11,5 +11,7 @@
 @interface NSArray (OCEnumerable)
 
 -(void)each:(void (^)(id))block;
+-(NSArray *)map:(id (^)(id))block;
+
 
 @end
