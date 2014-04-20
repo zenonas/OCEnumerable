@@ -12,10 +12,18 @@
 
 -(void)each:(void (^)(id))block {
     for (id object in self) {
-        NSLog(@"%@", object);
         block(object);
     }
 }
 
+-(NSArray *)map:(id (^)(id))block {
+    __block NSMutableArray *mutableArray = [[NSMutableArray alloc] init];
+    [self each:^(id object){
+        id transformedObject = block(object);
+        [mutableArray addObject:transformedObject];
+    }];
+    NSArray *result = [[NSArray alloc] initWithArray:mutableArray];
+    return result;
+}
 
 @end
